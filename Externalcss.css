@@ -1,0 +1,26 @@
+
+#p{
+    color:red;
+    background-image: url('/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:cursive,'Times New Roman', Times, serif ;
+}
+ol>li>a{
+    text-decoration: none;
+    color:green;
+    
+}
+h1{
+    text-shadow: 4px 3px red;
+    letter-spacing: 4px;
+    font-family:cursive,'Times New Roman', Times, serif ;
+    border-radius: 10px;
+    border-color: blue;
+    font-style: italic;
+}
+body{
+    margin: 50px;
+    border-style: dotted;
+    padding: 89px;
+}

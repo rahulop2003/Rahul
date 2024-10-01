@@ -1,0 +1,32 @@
+.section1{
+    height:20px;
+}
+
+.section2{
+    height: 100px;
+    background-color: navy;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+.section3{
+    height:20px;
+    font-family: cursive;
+    }
+   
+.section4{
+    width: 30%;
+    height:600px;
+    float:left;
+    color: red;
+}
+.section5{
+    width: 500px;
+    height: 600px;
+
+
+}    

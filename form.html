@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/form1.css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="post">
+        <table>
+            <tr>
+        <td><label>Enter Name</label></td>
+        <td><input type="text" class="form1" required name="txtname" value="" placeholder="your name"></td>
+    </tr>
+    <tr>
+        <td><label>Enter Password</label></td>
+        <td><input type="password" class="form1" name="txtname" value="" placeholder="your password"></td>
+
+    </tr>
+    <tr>
+        <td> <label>Enter Email</label></td>     
+        <td><input type="email" class="form1" name="txtname" value="" placeholder="your email"></td>
+    </tr>
+    <tr>
+        <td> <label>Date of Birth</label></td>     
+        <td><input type="date" class="form1" name="txtdob" value=""/></td>
+    </tr>
+    <tr>
+        <td> <label>Birth time</label></td>     
+        <td><input type="time" class="form1" name="txttime" value=""/></td>
+    </tr>
+    <tr>
+        <td> <label>Select color</label></td>     
+        <td><input type="color" class="form1" name="txtcolor" value=""/></td>
+    </tr>
+    <tr>
+        <td> <label>Profile Picture</label></td>     
+        <td><input type="file" name="txtfile"  value=""/></td>
+    </tr>
+    <tr>
+        <td> <label>Age</label></td>     
+        <td><input type="number" class="form1" name="txtage" value="" min="18" max="90"/></td>
+    </tr>
+    
+        <td> <label>Address</label></td>     
+        <td><textarea type="textaddress" class="form1" rows="10" cols="13"></textarea> </td>
+    </tr>
+    </tr>
+    
+        <td> <label>Select State</label></td>     
+        <td><select name="City">
+            <option></option>
+            <optgroup label="Uttar Pradesh">
+                <option>Kanpur</option>
+                <option>Lucknow</option>
+                <option>Agra</option>
+                <option>Bareilly</option>
+            </optgroup>
+            <optgroup label="Madhya Pradesh">
+                <option>Indore</option>
+                <option>Bhopal</option>
+                <option>Ujjan</option>
+                <option>Gwalior</option>
+            </optgroup>
+
+        </select>
+         </td>
+    </tr>
+    <tr>
+        <td><label>Gender</label></td>
+        <td>
+        <input type="radio" name="rdogender" value="Male"/> <label>Male</label>
+        <input type="radio" name="rdogender" value="Female"/> <label>Female</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Choose City</label></td>
+        <td>
+        <input type="checkbox" name="chkcity1" value="Delhi"/> <label>Delhi</label>
+        <input type="checkbox" name="chkcity2" value="Pune"/> <label>Pune</label>
+        <input type="checkbox" name="chkcity3" value="Noida"/> <label>Noida</label>
+        <input type="checkbox" name="chkcity4" value="Thane"/> <label>Thane</label>
+        </td>
+    </tr>
+    <tr>
+
+    <td><input type="button" name="btnclick" value="click here"/></td>    
+    <td><input type="reset" name="btnclick1" value="Reset Form"/></td>
+    <td><input type="submit" name="btnclick2" value="Submit Form"/></td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
+    
+    
